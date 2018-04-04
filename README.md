@@ -16,5 +16,5 @@ When running this app, you can check any problems or just get more info by openi
     
 To start the app:
 
-    gradle clean build ; java -jar build/libs/training-spring-boot-0.1.0.jar
+    ./gradlew clean build ; java -jar build/libs/training-spring-boot-0.1.0.jar
     
