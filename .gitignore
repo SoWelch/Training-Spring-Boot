@@ -8,3 +8,5 @@
 .gradle/
 .trash
 .trash/
+/build/
+
