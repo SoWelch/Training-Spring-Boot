@@ -1,0 +1,10 @@
+*.DS_Store
+*.db
+*.iml
+*.log
+.idea
+.idea/
+.gradle
+.gradle/
+.trash
+.trash/

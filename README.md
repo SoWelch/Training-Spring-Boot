@@ -8,7 +8,7 @@ This was built using multiple tutorials:
     Setup of junit in project:  
         https://spring.io/guides/gs/testing-web/  
       
-##Here's some helpful information
+## Here's some helpful information
             
 When running this app, you can check any problems or just get more info by opening: 
     
