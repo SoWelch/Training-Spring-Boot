@@ -11,9 +11,11 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
+        // This is the start of a spring application and what makes it continue to run
         SpringApplication.run(Application.class, args);
     }
 
+    // This method works as a sanity check.  It will print all of your beans before the app starts
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {

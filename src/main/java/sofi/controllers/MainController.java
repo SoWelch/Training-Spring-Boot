@@ -5,13 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class MainController {
+
+    // Setting up an endpoint for root, that returns a simple string message
     @RequestMapping("/")
     public String index() {
         return "Greetings from Spring Boot!";
-    }
-
-    @RequestMapping("/HelloWorld")
-    public String helloWorld() {
-        return "Hello World";
     }
 }
