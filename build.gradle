@@ -7,7 +7,9 @@ buildscript {
     }
 }
 
-plugins { id "io.spring.dependency-management" version "1.0.4.RELEASE" }
+plugins {
+    id "io.spring.dependency-management" version "1.0.4.RELEASE"
+}
 ext { springBootVersion = '2.0.0.RELEASE' }
 
 apply plugin: 'java'
@@ -30,6 +32,8 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile("io.springfox:springfox-swagger2:2.8.0")
+    compile("io.springfox:springfox-swagger-ui:2.8.0")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
